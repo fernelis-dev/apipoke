@@ -1,0 +1,86 @@
+.contenedor {
+  background-image: url('pokemon-3840x2160.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 40px; 
+}
+
+#pokemon-name-input {
+  margin-right: 20px;
+  margin-top: 30px;
+  
+  }
+
+.search-button {
+  background-color: #4CAF50;
+  margin-top: 30px;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1, h2 {
+  font-size: 2em;
+  color: #eff305;
+  animation: cambioColor 1s infinite alternate;
+  text-align: center;
+}
+
+
+
+
+section#pokemon {
+  background-color: white;
+  margin-top: 50px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  border: 3px solid #eff305;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.megusta {
+  background-color: #eff305;
+}
+
+div#resultado {
+  text-align: center;
+  height: 10px;
+}
+
+.pokemon-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  height: 200px;
+}
+
+@keyframes cambioColor {
+  0% {
+    color: #ca10e2;
+  }
+  50% {
+    color: #0cd9e7;
+  }
+  100% {
+    color: #cc540f;
+  }
+}
+
+
